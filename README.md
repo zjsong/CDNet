@@ -2,9 +2,9 @@
 
 This repository provides a PyTorch implementation of [CDNet](https://arxiv.org/abs/2001.08572). CDNet can be used to disentangle the digits’ handwriting style from the content information, and synthesize new faces with the same object identity but with different facial attributes and attribute intensities: <br/>
 
-<p align="center"><img width="800" src="https://github.com/zjsong/CDNet/tree/master/png/disentangle_style_content.png" /></p> <br/>
-<p align="center"><img width="800" src="https://github.com/zjsong/CDNet/tree/master/png/disentangle_control_degree.png" /></p>
--------------------------------------------------------------------------------------------------------------------------------------------------------
+<p align="center"><img width="800" src="https://github.com/zjsong/CDNet/tree/master/jpg/disentangle_style_content.jpg" /></p> <br/>
+<p align="center"><img width="800" src="https://github.com/zjsong/CDNet/tree/master/jpg/disentangle_control_degree.jpg" /></p>
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Paper
 Towards A Controllable Disentanglement Network <br/>
@@ -18,7 +18,7 @@ https://arxiv.org/abs/2001.08572 <br/>
 
 
 ## Overview of network architecture for training
-<p align="center"><img width="800" src="https://github.com/zjsong/CDNet/tree/master/png/CDNet_training_architecture.png" /></p>
+<p align="center"><img width="800" src="https://github.com/zjsong/CDNet/tree/master/jpg/CDNet_training_architecture.jpg" /></p>
 
 
 ## Dependencies
@@ -28,8 +28,7 @@ https://arxiv.org/abs/2001.08572 <br/>
 
 
 ## Downloading & pre-processing CelebA dataset
-* To download the CelebA dataset, please visit [the official website](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). <br/>
-* We use the clipped face images (64x64x3) and all 40 facial attributes (represented by a binary vector) to train all models. To pre-process images and labels, run the following code in ```src```:
+To download the CelebA dataset, please visit [the official website](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). We use the clipped face images (64x64x3) and all 40 facial attributes (represented by a binary vector) to train all models. To pre-process images and labels, run the following code in ```src```:
 ```
 python data_preprocess.py
 ```
