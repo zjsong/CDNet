@@ -4,7 +4,7 @@ This repository provides a PyTorch implementation of [CDNet](https://arxiv.org/a
 
 <img width="100%" src="jpg/disentangle_style_content.jpg" />
 <img width="100%" src="jpg/disentangle_control_degree.jpg" />
-------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 ## Paper
 Towards A Controllable Disentanglement Network <br/>
