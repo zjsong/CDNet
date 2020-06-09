@@ -78,34 +78,11 @@ If you use this code for your research, please cite our [paper](https://arxiv.or
 ```
 
 For the baseline models mentioned before, please refer to the following papers for details:
-* [AE-XCov](https://arxiv.org/pdf/1412.6583.pdf)
-```
-@article{cheung2014discovering,
-  title={Discovering hidden factors of variation in deep networks},
-  author={Cheung, Brian and Livezey, Jesse A and Bansal, Arjun K and Olshausen, Bruno A},
-  journal={arXiv preprint arXiv:1412.6583},
-  year={2014}
-}
-```
-* [IcGAN](https://arxiv.org/pdf/1611.06355.pdf)
-```
-@article{perarnau2016invertible,
-  title={Invertible conditional gans for image editing},
-  author={Perarnau, Guim and Van De Weijer, Joost and Raducanu, Bogdan and {\'A}lvarez, Jose M},
-  journal={arXiv preprint arXiv:1611.06355},
-  year={2016}
-}
-```
-* [VAE/GAN](http://proceedings.mlr.press/v48/larsen16.pdf)
-```
-@inproceedings{larsen2016autoencoding,
-  title={Autoencoding beyond pixels using a learned similarity metric},
-  author={Larsen, Anders Boesen Lindbo and S{\o}nderby, S{\o}ren Kaae and Larochelle, Hugo and Winther, Ole},
-  booktitle={International Conference on Machine Learning},
-  pages={1558--1566},
-  year={2016}
-}
-```
+* AE-XCov: [Discovering hidden factors of variation in deep networks](https://arxiv.org/pdf/1412.6583.pdf)
+
+* IcGAN: [Invertible conditional gans for image editing](https://arxiv.org/pdf/1611.06355.pdf)
+
+* VAE/GAN: [Autoencoding beyond pixels using a learned similarity metric](http://proceedings.mlr.press/v48/larsen16.pdf)
 
 
 ## Acknowledgement
