@@ -1,4 +1,4 @@
-## CDNet-PyTorch
+## CDNet
 
 This repository provides a PyTorch implementation of [CDNet](https://arxiv.org/abs/2001.08572). CDNet can be used to disentangle the digits’ handwriting style from the content information, and synthesize new faces with the same object identity but with different facial attributes and attribute intensities: <br/>
 
