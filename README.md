@@ -7,7 +7,7 @@ This repository provides a PyTorch implementation of [CDNet](https://arxiv.org/a
 ----------------------------------------------------------------------------------------------------------------------------
 
 ## Paper
-Towards A Controllable Disentanglement Network <br/>
+Toward a Controllable Disentanglement Network <br/>
 [Zengjie Song](https://zjsong.github.io/)<sup>1</sup>, [Oluwasanmi Koyejo](http://sanmi.cs.illinois.edu/)<sup>2</sup>, [Jiangshe Zhang](http://gr.xjtu.edu.cn/web/jszhang/english)<sup>1</sup> <br/>
 <sup>1</sup>School of Mathematics and Statistics, Xi’an Jiaotong University, Xi’an, China <br/>
 <sup>2</sup>Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana, IL, USA <br/>
@@ -69,8 +69,8 @@ python vaegan_main.py
 ## Citation
 If you use this code for your research, please cite our [paper](https://arxiv.org/abs/2001.08572):
 ```
-@article{song2020towards,
-  title={Towards A Controllable Disentanglement Network},
+@article{song2020toward,
+  title={Toward a Controllable Disentanglement Network},
   author={Song, Zengjie and Koyejo, Oluwasanmi and Zhang, Jiangshe},
   journal={arXiv preprint arXiv:2001.08572},
   year={2020}
